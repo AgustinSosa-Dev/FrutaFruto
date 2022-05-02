@@ -1,0 +1,20 @@
+.pie-de-pagina {
+    background: #bfbfbf;
+    color: #000;
+    display: flex;
+    font-weight: 400;
+    justify-content: space-between;
+    text-transform: lowercase;
+}
+
+@media screen and (min-width: 0) {
+    .pie-de-pagina {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .pie-de-pagina {
+        font-size: 1.5rem;
+        padding: 1.5625rem 5rem;
+    }
+}
